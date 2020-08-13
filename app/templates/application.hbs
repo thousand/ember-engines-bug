@@ -1,3 +1,11 @@
-<h2 id="title">Welcome to Ember</h2>
+<h2 id="title">I am the application's application template</h2>
 
-{{outlet}}
+<section style="border: 1px solid red">
+  <h3>Outlet section in the application's application template</h3>
+  {{outlet}}
+</section>
+
+<section style="border: 1px solid green">
+  <h3>Mount point of the routeless engine in the application's application template</h3>
+  {{mount "routeless-engine"}}
+</section>

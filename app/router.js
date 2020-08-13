@@ -7,7 +7,6 @@ export default class Router extends EmberRouter {
 }
 
 Router.map(function() {
-  this.mount('routeless-engine');
-  this.mount('routeful-emgine');
   this.mount('routeful-engine');
+  this.route('second-route');
 });
